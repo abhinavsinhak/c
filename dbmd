@@ -1,0 +1,37 @@
+DATABASE SQL TUTORIAL
+
+DATABASE DATATYPES
+•	INT                            WHOLE NUMBER
+•	DECIMAL                 DECIMAL NUMBER(3,2)
+•	VARCHAR                LENGTH OF THE STRING 
+•	BLOB
+•	DATE                         YYYY-MM-DD
+•	TIMESTAMP             YYYY-MM-DD HH:MM:SS 
+
+DELETE DATABASE 
+      DROP DATABASE “name”;
+   
+ALTER COMMAND IN SQL
+•	Alter a table to add a new column:
+ALTER TABLE table_name
+ADD column_name datatype;
+
+•	Alter a table to modify an existing column's datatype:
+ALTER TABLE table_name
+MODIFY COLUMN column_name new_datatype;
+
+•	Alter a table to remove a column:
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+•	Alter an index to add a new column:
+ALTER INDEX index_name
+ADD column_name;
+•	Alter a column to rename it:
+ALTER TABLE table_name
+RENAME COLUMN old_column_name TO new_column_name;
+
+
+•	DELETE COMMAND TO DELETE ONE ROW
+DELETE FROM table_name
+WHERE condition;
